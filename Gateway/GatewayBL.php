@@ -12,8 +12,8 @@
             $this->gatewayDTO = new GatewayDTO();
             $this->url='https://dbsakila.herokuapp.com/Actores/actor/';
             $this->link= 'https://my-user-auth.herokuapp.com/usuario/';
-            $this->linkPeli='https://dbsakila.herokuapp.com/Peliculas/pelicula/';
-            $this->linkCate='https://dbsakila.herokuapp.com/Categorias/categoria/';
+            $this->linkPeli='https://dbsakila.herokuapp.com/Peliculas/Pelicula/';
+            $this->linkCate='https://dbsakila.herokuapp.com/Categorias/Categoria/';
             
         }
         
