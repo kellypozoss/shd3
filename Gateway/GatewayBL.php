@@ -10,10 +10,10 @@
         public function __construct()
         {
             $this->gatewayDTO = new GatewayDTO();
-            $this->url='http://localhost/DBsakila/Actores/actor/';
-            $this->link= 'http://localhost/Auth/usuario/';
-            $this->linkPeli='http://localhost/DBsakila/Peliculas/Pelicula/';
-            $this->linkCate='http://localhost/DBsakila/Categorias/Categoria/';
+            $this->url='https://desempeno.herokuapp.com/Actores/actor/';
+            $this->link= 'https://desempeno1.herokuapp.com/usuario/';
+            $this->linkPeli='https://desempeno.herokuapp.com/Peliculas/Pelicula/';
+            $this->linkCate='https://desempeno.herokuapp.com/Categorias/Categoria/';
             
         }
         
