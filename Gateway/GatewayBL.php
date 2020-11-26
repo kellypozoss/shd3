@@ -144,6 +144,22 @@
             }
         }
 
+
+        public function usuario($request)
+        {            
+                switch ($request){
+                    case 'POST':{
+                        self::http('POST', $this->gatewayDTO, $this->link );
+                    break;
+                    }
+                    default:{
+                        echo "Default ";
+                    
+                    }
+
+                }
+        }
+
         public static function http($req, $data, $url)
         {
             $opts = array('http' =>
